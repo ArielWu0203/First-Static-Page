@@ -7,13 +7,14 @@
     src: url('/font/NotoSansCJKtc-Regular.otf');
 }
 @font-face {
-  dont-family: 'Microsoft Yi Baiti';
-  src: url('/font/Microsoft Yi Baiti.ttf');
+  font-family: 'Microsoft Yi Baiti';
+  src: url('/font/Microsoft\ Yi\ Baiti.ttf');
 }
 html{
     height:100%;
 }
 body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     min-height: 100%;
     margin: 0px;
     padding:0px;
