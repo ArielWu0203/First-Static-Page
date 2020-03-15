@@ -1,4 +1,3 @@
-@import url(//db.onlinewebfonts.com/c/5d22bd0816f911a4c90e5d8661157ef9?family=Microsoft+Yi+Baiti);
 @font-face {
     font-family: 'Noto Sans CJK TC,BOLD';
     src: url('/font/NotoSansCJKtc-Bold.otf');
@@ -6,6 +5,10 @@
 @font-face {
     font-family: 'Noto Sans CJK TC,Regular';
     src: url('/font/NotoSansCJKtc-Regular.otf');
+}
+@font-face {
+  dont-family: 'Microsoft Yi Baiti';
+  src: url('/font/Microsoft Yi Baiti.ttf');
 }
 html{
     height:100%;
@@ -45,7 +48,7 @@ li {
 }
 
 li a {
-    font-family: Microsoft Yi Baiti;
+    font-family: 'Microsoft Yi Baiti';
     font-size: 40px;
     color:#ffffff;
     text-decoration: none;
