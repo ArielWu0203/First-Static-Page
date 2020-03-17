@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Noto Sans CJK TC,BOLD';
-    src: url('/font/NotoSansCJKtc-Bold.otf');
+    src: url(font/NotoSansCJKtc-Bold.otf) format("opentype");
 }
 @font-face {
     font-family: 'Noto Sans CJK TC,Regular';
-    src: url('/font/NotoSansCJKtc-Regular.otf');
+    src: url(font/NotoSansCJKtc-Regular.otf) format("opentype");
 }
 @font-face {
   font-family: 'Microsoft Yi Baiti';
-  src: url('/font/Microsoft\ Yi\ Baiti.ttf');
+  src: url(font/Microsoft\ Yi\ Baiti.ttf) format("truetype");
 }
 html{
     height:100%;
