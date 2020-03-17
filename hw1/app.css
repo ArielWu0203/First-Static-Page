@@ -36,7 +36,9 @@ div {
     margin: 0;
     padding: 20px;
     overflow: hidden;
+    height: 200px;
     list-style-type: none;
+
 }
 li {
     float: right;
@@ -49,7 +51,7 @@ li {
     height: 95px;
 }
 
-li a {
+.bar1{
     font-family: 'Microsoft Yi Baiti';
     font-size: 40px;
     color:#ffffff;
@@ -59,6 +61,34 @@ li a {
     padding: 10px 10px;
     margin: 10px;
 }
+
+.dropdown{
+    position: relative;
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    width: 130%;
+    height: 160px;
+    text-align: left;
+    z-index: 1;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+}
+.bar2 {
+    font-family: 'Microsoft Yi Baiti';
+    font-size: 30px;
+    color: #3288b0;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 #store img{
     margin: 10px;
     width: 110px;
@@ -110,7 +140,7 @@ li a {
     float: right;
 }
 
-#bar a:hover{
+.bar1:hover{
     font-weight: bold;
     box-shadow: 0 9pt #ffffff;
 }
@@ -128,10 +158,10 @@ li a {
 }
 
 #learn{
-    animation: btn_move 1s ease 1.5s 1 alternate backwards;
+    animation: btn_move 1s ease 2s 1 alternate backwards;
 }
 #title p {
-    animation: text_move 1s ease 1.5s 1 alternate forwards;
+    animation: text_move 1s ease 2s 1 alternate forwards;
 }
 @keyframes btn_move {
     from {height: 0px;}
@@ -142,7 +172,7 @@ li a {
     to {opacity: 100%;}
 }
 h1{
-    animation: first_move 1s ease 0.5s 1 alternate forwards;
+    animation: first_move 1s ease 1s 1 alternate forwards;
 }
 @keyframes first_move {
     from {opacity: 0%;top: -5%;}
